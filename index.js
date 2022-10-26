@@ -16,10 +16,14 @@ app.get('/courses', (req, res) => {
 })
 app.get('/courses/:id', (req, res) => {
     const id = req.params.id;
-    const selectedCourse = courses.find(course => course.id===id);
+    const selectedCourse = courses.find(course => course.id === id);
     res.send(selectedCourse);
 })
-
+app.get('/courses/:id/details', (req, res) => {
+    const id = req.params.id;
+    const selectedCourse = courses.find(course => course.id === id);
+    res.send(selectedCourse);
+})
 
 app.listen(port, () => {
     console.log('courseware server running on port', { port })
