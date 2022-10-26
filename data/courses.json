@@ -1,26 +1,52 @@
 [
     {
-        "course_id": "01",
-        "course_name": "Python"
+        "id": "01",
+        "name": "Python",
+        "students": "1482",
+        "review": "953",
+        "fee": "280",
+        "image": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/10/Python-applications.jpg"
     },
     {
-        "course_id": "02",
-        "course_name": "Javascript"
+        "id": "02",
+        "name": "Swift",
+        "students": "723",
+        "review": "426",
+        "fee": "250",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDnMSI3PlkqTci1m38SVnGmWRX_pFF8WwoIg&usqp=CAU"
     },
     {
-        "course_id": "03",
-        "course_name": "PHP"
+        "id": "03",
+        "name": "PHP",
+        "students": "930",
+        "review": "594",
+        "fee": "260",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipEK75QkYkBFhF_OyVl4hGWUqLGu_EpjCQw&usqp=CAU"
+        
     },
     {
-        "course_id": "04",
-        "course_name": "Java"
+        "id": "04",
+        "name": "Java",
+        "students": "1293",
+        "review": "852",
+        "fee": "260",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbRS6x6GMK9ZjUFRAWRkA-1DDjQ6qccoulaA&usqp=CAU"
     },
     {
-        "course_id": "05",
-        "course_name": "C#"
+        "id": "05",
+        "name": "C#",
+        "students": "829",
+        "review": "547",
+        "fee": "240",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk1qlSS9QFH_Sw7SOxz8A4vKNErWmsi_p1Iw&usqp=CAU"
     },
     {
-        "course_id": "06",
-        "course_name": "Laravel"
+        "id": "06",
+        "name": "Laravel",
+        "students": "752",
+        "review": "419",
+        "fee": "220",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvYrWr0sT6yXe1LfI60ArWpoIOEpmuWy261A&usqp=CAU"
     }
+    
 ]
